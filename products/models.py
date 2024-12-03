@@ -42,5 +42,5 @@ class File(models.Model):
 
     class Meta:
         db_table = 'files'
-        verbose_name = _('File')
+        verbose_name = _('file')
         verbose_name_plural = _('files')
